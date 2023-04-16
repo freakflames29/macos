@@ -121,3 +121,44 @@
 	margin-right: 100px;
 	transition: 0.5s ease;
 }
+
+.terminal_container {
+	width: 52%;
+	height: 60%;
+/*	background-color: white;*/
+	position: absolute;
+	top: 100px;
+	right: 100px;
+}
+.terminal {
+	padding: 10px;
+	width: 100%;
+	height: 100%;
+	background: white;
+	border-radius: 10px;
+	box-shadow: -8px 26px 40px #1a1a1aad;
+}
+.terminal_bar{
+	width: 100%;
+/*	background-color: blue;*/
+	display: flex;
+}
+.headlight{
+	margin-right: 5px;
+}
+.red{
+	color: #fa5252;
+}
+.yellow{
+	color: #ffff43;
+}
+.green{
+	color: #42ff40;
+}
+.terminal_title{
+	margin-left: 30%;
+}
+
+.terminal_body {
+	padding-top: 10px;
+}
