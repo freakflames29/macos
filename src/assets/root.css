@@ -72,6 +72,7 @@
 	display: flex;
 	justify-content: center;
 	bottom: 0;
+	margin-bottom: 10px;
 }
 .dock {
 	/*width: 80%;
@@ -85,17 +86,18 @@
 	box-shadow: 0px -7px 30px #0000004f;
 	backdrop-filter: blur(10px);
 	display: flex;
+	transition: 0.5s ease;
 }
 
 .dock_left {
 	min-width: 80%;
 	display: flex;
+	z-index: 1015;
 }
 .dock_right {
 	min-width: 20%;
-	
-    margin-right: 20px;
 
+	margin-right: 20px;
 }
 .dock_icons {
 	max-width: 10%;
@@ -104,7 +106,12 @@
 	margin-left: -2px;
 	/* padding: 4px 16px; */
 	margin-right: -25px;
+	transition: 0.5s ease;
+
 	/*	padding: 4px 16px;*/
+}
+.dock_icons:hover {
+	transform: translate(0, -10px);
 }
 .dock_icons img {
 	width: 100%;
@@ -112,4 +119,5 @@
 	min-height: 93%;
 	object-fit: cover;
 	margin-right: 100px;
+	transition: 0.5s ease;
 }
